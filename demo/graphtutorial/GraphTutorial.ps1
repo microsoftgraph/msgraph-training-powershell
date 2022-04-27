@@ -22,7 +22,7 @@ Get-MgContext
 
 # <SaveContextSnippet>
 $context = Get-MgContext
-# <SaveContextSnippet>
+# </SaveContextSnippet>
 
 # <GetUserSnippet>
 # Get the authenticated user by UPN
