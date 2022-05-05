@@ -1,0 +1,7 @@
+{
+    "sourceDirectory": "./demo",
+    "exampleConfigFile": "./graphtutorial/settings.example.json",
+    "configFile": "settings.json",
+    "archiveFile": "PowerShellQuickStart.zip",
+    "zipReadMe": "./README.md"
+}
