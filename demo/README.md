@@ -153,3 +153,16 @@ In PowerShell, navigate to the project directory and run the following command.
 ```Shell
 ./GraphTutorial.ps1
 ```
+
+**Note:** The scripts included in this sample are not digitally signed. Attempting to run them may result in the following error:
+
+```powershell
+.\GraphTutorial.ps1: File C:\Source\GraphTutorial.ps1 cannot be loaded. The file C:\Source\GraphTutorial.ps1 is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.
+```
+
+If you get this error, use the following commands to unblock the file and temporarily allow unsigned scripts in the current PowerShell session. This will not change the default execution policy, the setting is only effective in the current session.
+
+```powershell
+Unblock-File .\GraphTutorial.ps1
+Set-ExecutionPolicy Unrestricted -Scope Process
+```
