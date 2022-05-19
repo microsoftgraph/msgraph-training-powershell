@@ -67,14 +67,3 @@ Send-MgUserMail -UserId $user.Id -BodyParameter $sendMailParams
 # </SendMailSnippet>
 
 Disconnect-MgGraph
-
-$tenantId = $settings.tenantId
-$certificate = $settings.clientCertificate
-
-# <AppOnlyAuthSnippet>
-Connect-MgGraph -ClientId $clientId -TenantId $tenantId -CertificateName $certificate
-# </AppOnlyAuthSnippet>
-
-# <GetUsersSnippet>
-Get-MgUser -Select "displayName,id,mail" -Top 25 -OrderBy "displayName"
-# </GetUsersSnippet>
