@@ -7,12 +7,12 @@ Write-Host 'PowerShell Graph Tutorial'
 $settings = Get-Content './settings.json' -ErrorAction Stop | Out-String | ConvertFrom-Json
 
 $clientId = $settings.clientId
-$authTenant = $settings.authTenant
+$tenantId = $settings.tenantId
 $graphScopes = $settings.graphUserScopes
 
 # <UserAuthSnippet>
 # Authenticate the user
-Connect-MgGraph -ClientId $clientId -TenantId $authTenant -Scopes $graphScopes -UseDeviceAuthentication
+Connect-MgGraph -ClientId $clientId -TenantId $tenantId -Scopes $graphScopes -UseDeviceAuthentication
 # </UserAuthSnippet>
 
 # <GetContextSnippet>
