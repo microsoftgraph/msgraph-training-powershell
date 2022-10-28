@@ -1,6 +1,7 @@
 {
     "clientId": "YOUR_CLIENT_ID_HERE",
-    "tenantId": "common",
+    "tenantId": "YOUR_TENANT_ID_HERE",
+    "clientCertificate": "YOUR_CLIENT_CERTIFICATE_HERE",
     "graphUserScopes": [
       "user.read",
       "mail.read",
