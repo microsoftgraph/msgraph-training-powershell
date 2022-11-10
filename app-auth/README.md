@@ -4,7 +4,7 @@
 
 To run the script in this folder, you need the following:
 
-- The [Microsoft Graph PowerShell SDK](https://docs.microsoft.com/powershell/microsoftgraph/installation) installed on your development machine. (**Note:** This tutorial was written with PowerShell 7.2.2 and Microsoft Graph PowerShell SDK version 1.9.5. The steps in this guide may work with other versions, but that has not been tested.)
+- The [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/powershell/microsoftgraph/installation) installed on your development machine. (**Note:** This tutorial was written with PowerShell 7.2.2 and Microsoft Graph PowerShell SDK version 1.9.5. The steps in this guide may work with other versions, but that has not been tested.)
 - A Microsoft work or school account with the **Global administrator** role.
 
 If you don't have a Microsoft account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
@@ -29,7 +29,7 @@ The Microsoft Graph PowerShell SDK requires a certificate for app-only authentic
 
 #### Windows
 
-On Windows, you can use the [pki PowerShell module](https://docs.microsoft.com/powershell/module/pki) to generate the certificate.
+On Windows, you can use the [pki PowerShell module](https://learn.microsoft.com/powershell/module/pki) to generate the certificate.
 
 ```powershell
 $cert = New-SelfSignedCertificate -Subject "CN=PowerShell App-Only" -CertStoreLocation `

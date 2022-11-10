@@ -4,14 +4,14 @@
 
 To run the script in this folder, you need the following:
 
-- The [Microsoft Graph PowerShell SDK](https://docs.microsoft.com/powershell/microsoftgraph/installation) installed on your development machine. (**Note:** This tutorial was written with PowerShell 7.2.2 and Microsoft Graph PowerShell SDK version 1.9.5. The steps in this guide may work with other versions, but that has not been tested.)
+- The [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/powershell/microsoftgraph/installation) installed on your development machine. (**Note:** This tutorial was written with PowerShell 7.2.2 and Microsoft Graph PowerShell SDK version 1.9.5. The steps in this guide may work with other versions, but that has not been tested.)
 - A Microsoft work or school account.
 
 If you don't have a Microsoft account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
 
 ## Register an application
 
-You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](https://docs.microsoft.com/graph/powershell/get-started).
+You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/graph/powershell/get-started).
 
 ### Azure Active Directory admin center
 
