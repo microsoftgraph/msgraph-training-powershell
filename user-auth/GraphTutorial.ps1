@@ -66,4 +66,4 @@ $sendMailParams = @{
 Send-MgUserMail -UserId $user.Id -BodyParameter $sendMailParams
 # </SendMailSnippet>
 
-Disconnect-MgGraph
+Disconnect-MgGraph | Out-Null
