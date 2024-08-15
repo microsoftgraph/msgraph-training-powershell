@@ -62,7 +62,7 @@ You can register an application using the Azure Active Directory admin center, o
 
 ## Configure the sample
 
-1. Open [settings.json](./graphtutorial/settings.json) and update the values according to the following table.
+1. Open [settings.json](./graphtutorial/settings.example.json) and update the values according to the following table.
 
     | Setting | Value |
     |---------|-------|
